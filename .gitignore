@@ -5,11 +5,9 @@
 *.swp
 .DS_Store
 .atom/
-.build/
 .buildlog/
 .history
 .svn/
-.swiftpm/
 migrate_working_dir/
 
 # IntelliJ related
@@ -43,3 +41,37 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# iOS & macOS related
+**.xcworkspace/xcuserdata/
+**.xcodeproj/xcuserdata/
+**.xcworkspace/xcshareddata/SwiftPM/Package.resolved
+Pods/
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/flutter_export_environment.sh
+/ios/Flutter/Flutter.framework
+/ios/Flutter/Flutter.podspec
+/ios/Flutter/App.framework
+/ios/Flutter/ephemeral
+/macos/Flutter/ephemeral
+/macos/Flutter/GeneratedPluginRegistrant.swift
+/macos/Pods
+
+# Android related
+**.gradle
+**/android/captures/
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+
+# Windows related
+/windows/flutter/ephemeral/
+/windows/flutter/generated_plugin_registrant.cc
+
+# Linux related
+/linux/flutter/ephemeral/
+
+# Web related
+/web/build/
+
+# Coverage
+coverage/
